@@ -73,11 +73,11 @@
 		```  
 
 - 데이터 생성  
-	테이블 전체 컬럼에 대응하는 값을 모두 넣기  
+	- 테이블 전체 컬럼에 대응하는 값을 모두 넣기  
 		```  
 		mysql> INSERT INTO 테이블명 VALUES(값1, 값2, ...);  
 		```  
-	테이블 특정 컬럼에 대응하는 값만 넣기 (지정되지 않은 컬럼은 디폴트값 또는 NULL값이 들어감)  
+	- 테이블 특정 컬럼에 대응하는 값만 넣기 (지정되지 않은 컬럼은 디폴트값 또는 NULL값이 들어감)  
 		```  
 		mysql> INSERT INTO 테이블명 (col1, col2, ...) VALUES(값1, 값2, ...);  
 		``` 
@@ -97,53 +97,53 @@
 		mysql> SELECT 컬럼1 AS 바꿀컬럼이름, 컬럼2 AS 바꿀컬럼이름 FROM 테이블명;
 		```  
 	- 데이터 정렬해서 읽기  
-	       -DESC는 내림차순 ASC는 오름차순  
+	       - DESC는 내림차순 ASC는 오름차순  
 		```
 		mysql> SELECT * FROM 테이블명 ORDER BY 정렬할기준컬럼명 DESC;  
 		mysql> SELECT 컬럼1, 컬럼2 FROM 테이블명 ORDER BY 정렬할기준컬럼명 ASC;
 		```  
 	- 조건에 맞는 데이터만 검색하기 (비교)  
-		예) WHERE 컬럼명 < 값  
-		예) WHERE 컬럼명 > 값  
-		예) WHERE 컬럼명 = 값  
+		- 예) WHERE 컬럼명 < 값  
+		- 예) WHERE 컬럼명 > 값  
+		- 예) WHERE 컬럼명 = 값  
 			```
 			SELECT * FROM 테이블명 WHERE 필드명 = '값'
-			```  
+			``` 
 	- 조건에 맞는 데이터만 검색하기 (논리 연산자)  
-                    -WHERE 조건문 으로 조건 검색  
-		예) WHERE 컬럼명 < 값 OR 컬럼명 > 값  
-		예) WHERE 컬럼명 > 값 AND 컬럼명 < 값  
+                    - WHERE 조건문 으로 조건 검색  
+		- 예) WHERE 컬럼명 < 값 OR 컬럼명 > 값  
+		- 예) WHERE 컬럼명 > 값 AND 컬럼명 < 값  
 			```
 			SELECT * FROM 테이블명 WHERE (필드명='값') OR ( 필드명 ='값');     
 			SELECT * FROM 테이블명 WHERE (필드명='값') AND ( 필드명 ='값');    
-			```  
+			``` 
 	- 조건에 맞는 데이터만 검색하기 (LIKE 를 활용한 부분 일치)  
    	       -WHERE 조건문 으로 조건 검색  
-		예) 홍으로 시작되는 값을 모두 찾을 경우  
+		- 예) 홍으로 시작되는 값을 모두 찾을 경우  
 			```
 			SELECT * FROM 테이블명 WHERE 필드명 LIKE '홍%';  
 			```  
-		예) 홍이 들어간 값을 모두 찾을 경우  
+		- 예) 홍이 들어간 값을 모두 찾을 경우  
 			```
 			SELECT * FROM 테이블명 WHERE 필드명 LIKE '%홍%';  
 			```  
-		예) 홍으로 시작되고 뒤에 2글자가 붙을 경우  
+		- 예) 홍으로 시작되고 뒤에 2글자가 붙을 경우  
 			```
 			SELECT * FROM 테이블명 WHERE 필드명 LIKE '홍__';  
 			SELECT * FROM 테이블명 WHERE 필드명 LIKE '홍%' AND 필드명='값'  
 			``` 
 	- 결과중 일부만 데이터 가져오기 (LIMIT 을 활용)  
-		예) 결과중 처음부터 10개만 가져오기  
+		- 예) 결과중 처음부터 10개만 가져오기  
 			```
 			SELECT * FROM 필드명 LIMIT 10;  
 			```  
-		예) 결과중 100번째부터, 10개만 가져오기  
+		- 예) 결과중 100번째부터, 10개만 가져오기  
 			```
 			SELECT * FROM 필드명 LIMIT 100, 10;  
 			```  
 	- 조건 조합  
-		위에서 나열한 조건을 조합해서 다양한 Query를 작성할 수 있음  
-		조합 순서 SELECT FROM WHERE ORDER BY LIMIT  
+		- 위에서 나열한 조건을 조합해서 다양한 Query를 작성할 수 있음  
+		- 조합 순서 SELECT FROM WHERE ORDER BY LIMIT  
 		```
 		예)  
 			mysql> SELECT id, name FROM mytable  
