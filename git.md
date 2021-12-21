@@ -82,5 +82,5 @@ git remote -v : 원격 저장소에 제대로 연결됐는지 확인하기
 git pull origin master(git pull만 입력해도 된다) : 원격 저장소에서 소스 파일을 가져오기  
 git clone "주소" : 원격저장소를 복제하여 내가 원하는 폴더로 가서 깃헙파일들 불러오기  
 git remote remove origin : 기존 레파지토리 remote 제거   
-git remote set-url origin "새로운 저장소 주소" : 레파지토리 변경   
+git remote set-url origin "새로운 저장소 주소" : 레파지토리 변경  
   
