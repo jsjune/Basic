@@ -1,30 +1,29 @@
+# 데이터베이스
 
-- 데이터베이스 생성  
+- 데이터베이스 생성
 	```
 	mysql> CREATE DATABASE dbname;
-	```   
-
-- 데이터베이스 목록 보기  
+	```
+- 데이터베이스 목록 보기
 	```
 	mysql> SHOW DATABASES;
 	```  
-
 - dbname 데이터베이스 사용 시  
 	```
 	mysql> USE dbname;
 	```  
-
 - dbname 데이터베이스 삭제  
 	```
 	mysql> DROP DATABASE [IF EXISTS] dbname
 	```  
-
-
 - 테이블을 생성할 데이터베이스를 먼저 사용하겠다고 명령한 후에,  
 	```
 	mysql> CREATE DATABASE dave;  
 	mysql> use dave;
 	```   
+
+# 테이블
+
 - 테이블 생성  
 	```
 	mysql> CREATE TABLE 테이블명 (  
@@ -35,7 +34,6 @@
  		Primary Key() 가 될 필드 지정  
 		);
 	```
-
 
 - 테이블 조회  
 	```
@@ -71,7 +69,7 @@
 		```
 		mysql>ALTER TABLE mytable DROP COLUMN series;
 		```  
-
+# 데이터
 - 데이터 생성  
 	- 테이블 전체 컬럼에 대응하는 값을 모두 넣기  
 		```  
