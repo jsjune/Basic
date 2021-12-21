@@ -68,7 +68,7 @@ git log --oneline --branches --graph
 git log "브랜치명".."브랜치명" : 브랜치 사이의 차이점 알아보기  
 git merge "브랜치명" : 브랜치 병합  
 git branch -d "브랜치명" : 브랜치 삭제  
-</br>
+
 1. Git bash 실행  
 2. cd로 깃 허브에 올리고 싶은 폴더로 이동   
 3. git init (폴더 깃으로 초기화)  
@@ -76,11 +76,11 @@ git branch -d "브랜치명" : 브랜치 삭제
 5. git commit -m 메세지    
 6. git remote add origin 복사한주소 : 원격 저장소에 연결하기(처음 연동시킬 때 사용, 연동시킨 이후에는 생략)  
 7. git push -u origin master(제일 처음 원격 연동이라면 이렇게 써줘야하고 아니라면 git push로 가능)  
-</br>
+
 git remote add origin 복사한주소 : 원격 저장소에 연결하기(처음 연동시킬 때 사용, 연동시킨 이후에는 생략)  
 git remote -v : 원격 저장소에 제대로 연결됐는지 확인하기  
 git pull origin master(git pull만 입력해도 된다) : 원격 저장소에서 소스 파일을 가져오기  
-git clone "주소" : 원격저장소를 복제하여 내가 원하는 폴더로 가서 깃헙파일들 불러오기  
-git remote remove origin : 기존 레파지토리 remote 제거   
-git remote set-url origin "새로운 저장소 주소" : 레파지토리 변경  
+git clone "주소" : 원격저장소를 복제하여 내가 원하는 폴더로 가서 깃헙파일들 불러오기    
+git remote remove origin : 기존 레파지토리 remote 제거     
+git remote set-url origin "새로운 저장소 주소" : 레파지토리 변경   
   
