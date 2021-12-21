@@ -9,3 +9,4 @@
 
 
 마크다운 특수문자 : https://ascii.cl/htmlcodes.htm
+마크다운 이모지 : http://www.iemoji.com/
