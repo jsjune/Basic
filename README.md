@@ -10,4 +10,4 @@
 
 마크다운 특수문자 : https://ascii.cl/htmlcodes.htm
 <br>
-마크다운 이모지 : http://www.iemoji.com/
+마크다운 이모지 사용 : http://www.iemoji.com/
