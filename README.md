@@ -4,7 +4,7 @@
 |기초명령어||||
 |:---:|:---:|:---:|:---:|
 |[git](https://github.com/jsjune/basic/blob/master/git.md)|[Crawling](https://github.com/jsjune/Practice_Grammar/blob/master/Crawling.ipynb)|[MYSQL](https://github.com/jsjune/Practice_Grammar/blob/master/MYSQL_query.md)|[mongodb](https://github.com/jsjune/Practice_Grammar/blob/master/mongodb_query.ipynb)|
-|||[pymysql](https://github.com/jsjune/Practice_Grammar/blob/master/pymysql.ipynb)||
+|||[pymysql](https://github.com/jsjune/Practice_Grammar/blob/master/pymysql.ipynb)|[pymongo](https://github.com/jsjune/Practice_Grammar/blob/master/pymongo.ipynb)|
 |||[MYSQL_analysis](https://github.com/jsjune/Practice_Grammar/blob/master/MYSQL_analysis.ipynb)||
 
 
