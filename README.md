@@ -5,7 +5,7 @@
 |:---:|:---:|:---:|:---:|
 |[git](https://github.com/jsjune/Practice_Grammar/blob/master/practice/git.md)|[Crawling](https://github.com/jsjune/Practice_Grammar/blob/master/practice/Crawling.ipynb)|[MYSQL](https://github.com/jsjune/Practice_Grammar/blob/master/practice/MYSQL_query.md)|[mongodb](https://github.com/jsjune/Practice_Grammar/blob/master/practice/mongodb_query.ipynb)|
 |||[pymysql](https://github.com/jsjune/Practice_Grammar/blob/master/practice/pymysql.ipynb)|[pymongo](https://github.com/jsjune/Practice_Grammar/blob/master/practice/pymongo.ipynb)|
-|||[MYSQL_analysis](https://github.com/jsjune/Practice_Grammar/blob/master/practice/MYSQL_analysis.ipynb)||
+|||[MYSQL_analysis](https://github.com/jsjune/Practice_Grammar/blob/master/practice/MYSQL_analysis.ipynb)|[pymongo_analysis_practice](https://github.com/jsjune/Practice_Grammar/blob/master/practice/pymongo_analysis_pracitce.ipynb)|
 
 
 
